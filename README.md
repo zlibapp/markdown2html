@@ -4,6 +4,8 @@
 
 zlib.app 服务器本身不存储任何数据。所有内容均从 zlibrary 服务器实时获取并转发。
 
+[官方APP下载](https://raw.githubusercontent.com/zlibapp/app/main/zlibrary-app-latest.apk)
+
 ## 使用
 
 ### 搜索与下载
