@@ -16,14 +16,22 @@
 <p>在 z-library 主网站被封之后，z-library 的安卓端 APP 仍能够正常使用。但国内用户，以及非安卓平台用户可能会感到不便。我们分析了 z-library 安卓安装包，得到了可用的 APP 接口，搭建了相应的中转服务，注册了一些公共账号，以方便更多人使用 z-library APP。</p>
 <p>zlib.app 服务器本身不存储任何数据。所有内容均从 zlibrary 服务器实时获取并转发。</p>
 <p><a href="https://raw.githubusercontent.com/zlibapp/app/main/zlibrary-app-latest.apk">官方APP下载</a></p>
+<blockquote>
+<p>目前 z-library 也有很多“离线库”，这些离线库基本上来自于 PILIMI 之前的一个项目所保存的资源。故 2022 年 10 月之后新上传的内容可能会有缺失。本项目直接接入 APP 接口，为“在线库”，资源相对比较丰富，下载也是直接从 z-library 服务器获取。但同时，本项目也极大依赖于 APP 的稳定性。所以可能较为不稳定。
+此外，如果您不提供自己的账号，则默认使用我们之前注册的公共账号。下载额度有限。而“离线库”没有下载额度限制。
+Github 上原来有另外一个项目，也使用类似的方法，但最近停止服务了。可以将本项目作为原项目的替代。</p>
+</blockquote>
 <h2 id="_1">使用</h2>
 <h3 id="_2">搜索与下载</h3>
 <p>请使用以下链接进行搜索（恕不赘述）：</p>
-<p><a href="https://search.zhelper.net/?[{%22name%22:%22zlib.app%22,%22url%22:%22https://api.zlib.app%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:false,%22download%22:%22https://d1.zlib.app/download/%22}]" target="_blank"> 打开搜索界面 </a></p>
+<p><a href="https://search.zhelper.net/?[{%22name%22:%22zlib.app%22,%22url%22:%22https://api.zlib.app%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:false,%22download%22:%22https://d.zlib.app/download/%22}]" target="_blank"> 打开搜索界面 </a></p>
 <!-- 搜索完成之后，点击下载，将跳转到`d.zlib.app`，参照下图进行下载配置。 -->
 
 <h2 id="_3">进阶</h2>
-<div class="codehilite"><pre><span></span><code>在写
+<div class="codehilite"><pre><span></span><code><span class="err">从搜索网页获取所需要下载书籍的信息，例如，从</span><span class="w"> </span><span class="n">TOR</span><span class="w"> </span><span class="err">官网获取：</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead</span><span class="o">.</span><span class="n">onion</span><span class="o">/</span><span class="n">book</span><span class="o">/</span><span class="mi">11651373</span><span class="o">/</span><span class="mi">1132</span><span class="n">ee</span><span class="err">；从</span><span class="w"> </span><span class="n">clibrary</span><span class="w"> </span><span class="err">获取：</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">clibrary</span><span class="o">.</span><span class="n">top</span><span class="o">/</span><span class="n">book</span><span class="o">/</span><span class="mi">3511911</span><span class="o">/</span><span class="n">f37da4</span><span class="w"></span>
+<span class="err">注意其中共同的特点：最后以</span><span class="w"> </span><span class="err">数字</span><span class="o">/</span><span class="err">字符串</span><span class="w"> </span><span class="err">的形式结尾。如</span><span class="w"> </span><span class="mi">3511909</span><span class="o">/</span><span class="n">db1f53</span><span class="w"> </span><span class="err">或者</span><span class="w"> </span><span class="mi">3511911</span><span class="o">/</span><span class="n">f37da4</span><span class="w"></span>
+<span class="err">然后，请访问</span><span class="w"> </span><span class="p">[</span><span class="err">替换成可用的服务器域名</span><span class="p">]</span><span class="o">/</span><span class="n">download</span><span class="o">/</span><span class="p">[</span><span class="err">替换成上一步的数字</span><span class="p">]</span><span class="o">/</span><span class="p">[</span><span class="err">替换成上一步的字符串</span><span class="p">]</span><span class="w"> </span><span class="err">即可</span><span class="w"></span>
+<span class="err">如果需要使用自己的额度，请使用</span><span class="w"> </span><span class="p">[</span><span class="err">替换成可用的服务器域名</span><span class="p">]</span><span class="o">/</span><span class="n">download</span><span class="o">/</span><span class="p">[</span><span class="err">替换成上一步的数字</span><span class="p">]</span><span class="o">/</span><span class="p">[</span><span class="err">替换成上一步的字符串</span><span class="p">]</span><span class="o">/</span><span class="p">[</span><span class="err">替换成</span><span class="n">remix_userid</span><span class="p">]</span><span class="o">/</span><span class="p">[</span><span class="err">替换成</span><span class="n">remix_userkey</span><span class="p">]</span><span class="w"></span>
 </code></pre></div>
 </body>
 
