@@ -10,7 +10,7 @@ zlib.app 服务器本身不存储任何数据。所有内容均从 zlibrary 服�
 
 请使用以下链接进行搜索（恕不赘述）：
 
-<a href="https://search.zhelper.net/?[{%22name%22:%22zlib.app%22,%22url%22:%22https://api.zlib.app%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:false,%22download%22:%22https:/d1.zlib.app%22}]" target="_blank"> 打开搜索界面 </a>
+<a href="https://search.zhelper.net/?[{%22name%22:%22zlib.app%22,%22url%22:%22https://api.zlib.app%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:false,%22download%22:%22https:/d1.zlib.app/}]" target="_blank"> 打开搜索界面 </a>
 
 <!-- 搜索完成之后，点击下载，将跳转到`d.zlib.app`，参照下图进行下载配置。 -->
 
@@ -18,6 +18,5 @@ zlib.app 服务器本身不存储任何数据。所有内容均从 zlibrary 服�
 ## 进阶
 
 ```
-
-
+在写
 ```
